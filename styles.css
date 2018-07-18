@@ -1,0 +1,198 @@
+body {
+	width:100%;
+	height:100%;
+	background-color:#000;
+	font-family: 'PT Mono', monospace;
+	color: white;
+	font-size:16px;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.clearer{
+	clear: both;
+}
+
+.emphasis {
+	font-style: italic;
+}
+
+hr {
+	margin: 20px;
+}
+
+header {
+	text-align: center;
+}
+
+header img {
+	margin:10px auto;
+	max-width:95%;
+	height: auto;
+}
+
+.hero img {
+	display: block;
+	margin:0 auto;
+	margin-top:50px;
+	width:100%;
+	height: auto;
+}
+/* ----- fonts ---- */
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+
+
+
+h1, h2, h3 {
+	font-family: 'PT Mono', monospace;
+}
+/*
+h1{
+	font-size:3.998em;
+}
+*/
+p{
+	font-family: 'PT Mono', monospace;
+	color:#aaa;
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+
+
+/* ----- nav ---- */
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+nav ul li {
+	display: inline-block;
+	border-bottom: 1px solid #000;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size:24px;
+	color: #fff;
+	padding-bottom:5px;
+}
+
+nav ul li a:hover {
+	color:#666;}
+
+nav ul li:hover {
+	border-bottom: 1px solid red;
+}
+
+nav ul li.active a {
+	color:#666;
+}
+
+nav ul li.active {
+	border-bottom: 1px solid red;
+}
+
+
+
+
+
+
+
+/* ---- scaffolding ---- */
+.mainWrapper {
+	max-width:1000px;
+	margin: 30px auto;
+}
+
+.musicWrapper {
+	max-width: 700px;
+	margin:0px auto;
+}
+
+aside.mainWrapper  {
+	text-align: center;
+}
+
+#archieveImages {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+#archieveImages img {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+/* contact form */
+
+.contactForm {
+	background:#999;
+	padding:20px;
+	border-radius:10px;
+	overflow:hidden;
+}
+
+.formElement {
+	clear:both;
+	width:90%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:15px;
+	background:black;
+	border-radius:5px;
+}
+
+.formElement .formText {
+	float:left;
+	width:40%;
+	margin:0;
+	line-height:1;
+}
+
+.formElement .formField, .formElement .formComment {
+	float:left;
+	width:55%;
+	background:#bb;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.formErrors {
+	margin:0;
+	line-height:1.3;
+	color:#f15823;
+	list-style: none;
+	margin-bottom: 20px;
+}
