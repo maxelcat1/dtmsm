@@ -16,7 +16,17 @@ const addActive=(mN, mL, bC) =>{
 	document.querySelectorAll(selec)[linkPosition].className='active';
 
 }
-
-
 addActive('mainMenu', mainLinks, bodyClass);
 addActive('footerMenu', mainLinks, bodyClass);
+
+
+
+var navState =document.getElementById('topNav');
+document.querySelector("#menu-toggle").addEventListener("click", function(){
+		if (navState.style.display==='none' || navState.style.display===''){
+			navState.style.display='block';
+		}else{		
+			navState.style.display='none';
+		}
+
+})

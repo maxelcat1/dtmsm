@@ -1,9 +1,9 @@
 	<aside class="mainWrapper">
 		<?php 
 		if ($page_title=="merch - Daddy Those Men Scare Me"){
-			echo '<img src=images/mushroomman.jpg />';
+			echo '<img class="footerImage" src=images/mushroomman.jpg />';
 		}else{
-			echo '<img src="images/child-570.jpg">';
+			echo '<img class="footerImage" src="images/child-570.jpg">';
 		}
 		?>
 		<hr />

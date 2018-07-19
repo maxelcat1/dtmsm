@@ -16,7 +16,7 @@
 		
 	</aside>
 
-<div id="archieveImages" class="mainWrapper"></div>
+<div id="archiveImages" class="mainWrapper"></div>
 <script type="text/javascript" src="script.js"></script>
 
 

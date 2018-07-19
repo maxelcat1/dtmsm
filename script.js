@@ -1,10 +1,10 @@
 console.log('hello');
 
 
-var achieveContainer = document.querySelector("#archieveImages");
+var archieveContainer = document.querySelector("#archiveImages");
 
 
-const archieveImages = [
+const archiveImages = [
  {
     id: 1,
     arcurl: 'vibrating-daddies.jpg',
@@ -223,15 +223,15 @@ const archieveImages = [
   }
   ]
 
- archieveImageStrings  = archieveImages.map((num) =>{
-		return 'archieveImages/'+num.arcurl;
+ archiveImageStrings  = archiveImages.map((num) =>{
+		return 'archiveImages/'+num.arcurl;
 	})
 
 
-archieveImages.forEach(function(value){
+archiveImages.forEach(function(value){
 	var newImage = document.createElement("img");
-	newImage.src = 'archieveImages/'+value.arcurl;
+	newImage.src = 'archiveImages/'+value.arcurl;
   newImage.alt = value.altText;
-	achieveContainer.appendChild(newImage);
+	archieveContainer.appendChild(newImage);
 
 })

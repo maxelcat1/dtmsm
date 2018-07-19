@@ -5,6 +5,7 @@ body {
 	font-family: 'PT Mono', monospace;
 	color: white;
 	font-size:16px;
+	font-size: 100%;
 }
 
 * {
@@ -14,6 +15,10 @@ body {
 
 .clearer{
 	clear: both;
+}
+
+.menu-toggle {
+	display:none;	
 }
 
 .emphasis {
@@ -134,18 +139,18 @@ nav ul li.active {
 	margin:0px auto;
 }
 
-aside.mainWrapper  {
+.mainWrapper  {
 	text-align: center;
 }
 
-#archieveImages {
+#archiveImages {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
 }
 
-#archieveImages img {
+#archiveImages img {
 	margin-bottom: 50px;
 }
 
@@ -195,4 +200,91 @@ aside.mainWrapper  {
 	color:#f15823;
 	list-style: none;
 	margin-bottom: 20px;
+}
+
+/*--- responsive code  --- */
+@media only screen and (max-width:1199px){
+		/*.hero,
+		.mainWrapper,
+		#archiveImages
+		 {
+			display: none;
+		}*/
+
+		.mainWrapper {
+			max-width: 98%;
+			margin:0 1%;
+		}
+
+		.footerImage {
+			max-width: 50%;
+			height:auto;
+			/*display: block;
+			margin: 0 auto;*/
+		}
+
+		#archiveImages img	{
+			max-width:45%;
+			height:auto;
+		}
+		.mainWrapper img{
+			max-width:85%;
+			height:auto;
+		}
+
+	}
+
+
+@media only screen and (max-width:700px){
+		/*nav,
+		.hero,
+		.mainWrapper,*/
+		#archiveImages,
+		.footerMenu
+		 {
+			display: none;
+		}
+
+		#topNav {
+			display: none;
+		}
+
+
+		.menu-toggle { /*button*/
+		display:block;
+		font-size:18px;
+		padding:5px 10px;
+		border-radius: 5px;
+		margin:5px auto;
+		color:#bf4e28;
+		color:#aaa;
+		background-color:#333;
+		text-shadow:1px 1px 1px #666;
+	}
+
+	nav ul li {
+		display: block;
+		margin-bottom:20px;
+		margin-top: 20px;
+		border-bottom: none;
+	}
+
+	nav ul li.active,
+	nav ul li:hover{
+		border-bottom: none;
+	}
+		
+
+	nav ul li.active a,
+	nav ul li:hover a{
+		text-decoration: underline;
+	}
+
+	body {
+		font-size: 50%;
+	}
+
+	p{
+		font-size:16px;
+	}
 }

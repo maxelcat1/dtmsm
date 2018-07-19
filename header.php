@@ -5,6 +5,7 @@
 	<title><?php echo $page_title;?></title>
 	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body <?php echo 'class="'.$page_id.'"'; ?>>
 	<div id="fb-root"></div>
@@ -18,8 +19,9 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <header>
 <img src="images/dtmsm-logo-text.png" />
+<button id="menu-toggle" class="menu-toggle" >menu</button>
 <nav>
-	<ul class="mainMenu">
+	<ul class="mainMenu" id="topNav">
 		<li><a href="index.php">home</a></li>
 		<li><a href="music.php">music</a></li>
 		<li><a href="gigs.php">gigs</a></li>
