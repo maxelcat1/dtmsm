@@ -8,17 +8,17 @@ const archieveImages = [
  {
     id: 1,
     arcurl: 'vibrating-daddies.jpg',
-    altText: 'some alt text'
+    altText: 'supporting the vibrators'
   },
  {
     id: 1,
     arcurl: 'scared-photo.jpg',
-    altText: 'some alt text'
+    altText: 'flyer for the Dublin Castle'
   },
  {
     id: 1,
     arcurl: 'scared-cat.jpg',
-    altText: 'some alt text'
+    altText: 'flyer for Maddens Ale House'
   },
 
 
@@ -26,200 +26,200 @@ const archieveImages = [
   {
     id: 1,
     arcurl: 'daddies-and-spizz-energi-1st-july-2017.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me support Spizz Energy poster'
   },
 {
     id: 2,
     arcurl: 'dublin-castle-with-spizz-energi-2017-07-01a.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me playing live'
   },
   {
     id: 3,
     arcurl: 'daddy-those-men-scare-me-1.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Drummer'
   },
   {
     id: 4,
     arcurl: 'daddy-those-men-scare-me-2.jpg',
-    altText: 'some alt text'
+    altText: 'Set List'
   },
   {
     id: 5,
     arcurl: 'daddy-those-men-scare-me-4.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
 
 {
     id: 6,
     arcurl: 'daddy-those-men-scare-me-5.jpg',
-    altText: 'some alt text'
+    altText: 'old flyer'
   },
 
   {
     id: 7,
     arcurl: 'daddy-those-men-scare-me-23.jpg',
-    altText: 'some alt text'
+    altText: 'jeff'
   },
 
 {
     id: 8,
     arcurl: 'daddy-those-men-scare-me-52.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
 
 {
     id: 9,
     arcurl: 'daddy-those-men-scare-me-56.jpg',
-    altText: 'some alt text'
+    altText: 'flyer'
   },
 
   {
     id: 10,
     arcurl: 'daddy-those-men-scare-me-65.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
 
   {
     id: 11,
     arcurl: 'daddy-those-men-scare-me-566.jpg',
-    altText: 'some alt text'
+    altText: 'flyer - Dublin Castle'
   },
 
   {
     id: 12,
     arcurl: 'daddy-those-men-scare-me-fulham-swan.jpg',
-    altText: 'some alt text'
+    altText: 'Fulham Swan'
   },
 
 
   {
     id: 13,
     arcurl: 'daddy-those-men-scare-me-jeffrey.jpg',
-    altText: 'some alt text'
+    altText: 'Jeff'
   },  
 
   {
     id: 14,
     arcurl: 'daddy-those-men-scare-me-mar5.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
 
   {
     id: 15,
     arcurl: 'daddy-those-men-scare-me-mark-and-jeff.jpg',
-    altText: 'some alt text'
+    altText: 'pre-gig'
   },
 
   {
     id: 16,
     arcurl: 'daddy-those-men-scare-me-marquee.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
 
   {
     id: 17,
     arcurl: 'daddy-those-men-scare-ponders-end.jpg',
-    altText: 'some alt text'
+    altText: 'green flyer'
   },
   {
     id: 18,
     arcurl: 'daddy-those-men-scare-me-mar1.jpg',
-    altText: 'some alt text'
+    altText: 'The Marquee - ohhhh'
   },
   {
     id: 19,
     arcurl: 'img001.jpg',
-    altText: 'some alt text'
+    altText: 'tea for the Wicked - flyer'
   },
   {
     id: 20,
     arcurl: 'img001-2.jpg',
-    altText: 'some alt text'
+    altText: 'dunno who that is'
   },
   {
     id: 21,
     arcurl: 'img002.jpg',
-    altText: 'some alt text'
+    altText: 'yet another flyer'
   },
   {
     id: 22,
     arcurl: 'img002-2.jpg',
-    altText: 'some alt text'
+    altText: 'red guitar'
   },
   {
     id: 23,
     arcurl: 'img003.jpg',
-    altText: 'some alt text'
+    altText: 'some flyer or other'
   },
   {
     id: 24,
     arcurl: 'img003-2.jpg',
-    altText: 'some alt text'
+    altText: 'Stoke Newington Flyer'
   },
   {
     id: 25,
     arcurl: 'img003-3.jpg',
-    altText: 'some alt text'
+    altText: 'sunset strip'
   },
   {
     id: 26,
     arcurl: 'img003-4.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
   {
     id: 27,
     arcurl: 'img003-5.jpg',
-    altText: 'some alt text'
+    altText: 'r u staggerin this christmas?'
   },
   {
     id: 28,
     arcurl: 'img003-6.jpg',
-    altText: 'some alt text'
+    altText: 'Dublin Castle mailing list'
   },
   {
     id: 29,
     arcurl: 'img003-7.jpg',
-    altText: 'some alt text'
+    altText: 'Christmas party'
   },
   {
     id: 30,
     arcurl: 'img004.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
   {
     id: 31,
     arcurl: 'img004-2.jpg',
-    altText: 'some alt text'
+    altText: 'Hope an Anchor'
   },
   {
     id: 32,
     arcurl: 'img004-3.jpg',
-    altText: 'some alt text'
+    altText: 'Daddy Those Men Scare Me live'
   },
     {
     id: 33,
     arcurl: 'img004-4.jpg',
-    altText: 'some alt text'
+    altText: 'flyer'
   },
     {
     id: 34,
     arcurl: 'img005.jpg',
-    altText: 'some alt text'
+    altText: 'another flyer'
   },
 	{
     id: 35,
     arcurl: 'img005-2.jpg',
-    altText: 'some alt text'
+    altText: 'Hope and Anchor - Wicker Man poster'
   },
   {
     id: 36,
     arcurl: 'img006-2.jpg',
-    altText: 'some alt text'
+    altText: 'gig list'
   },
   	{	
     id: 36,
     arcurl: 'img004-5.jpg',
-    altText: 'some alt text'
+    altText: 'Bugbear Promotions'
   }
   ]
 
@@ -231,6 +231,7 @@ const archieveImages = [
 archieveImages.forEach(function(value){
 	var newImage = document.createElement("img");
 	newImage.src = 'archieveImages/'+value.arcurl;
+  newImage.alt = value.altText;
 	achieveContainer.appendChild(newImage);
 
 })
