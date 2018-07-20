@@ -20,11 +20,12 @@ addActive('mainMenu', mainLinks, bodyClass);
 addActive('footerMenu', mainLinks, bodyClass);
 
 
+var navState =document.getElementById('topNav');
+document.querySelector("#menu-toggle").addEventListener("click", function(){
+		if (navState.style.display==='none' || navState.style.display===''){
+			navState.style.display='block';
+		}else{		
+			navState.style.display='none';
+		}
 
-const closeNav=() =>{
-	document.getElementById("topNav").style.width="0px";	
-}
-const openNav=() =>{
-	//console.log('open menu');
-	 document.getElementById("topNav").style.width = "100%";
-}
+})

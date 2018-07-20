@@ -19,10 +19,9 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <header>
 <img src="images/dtmsm-logo-text.png" />
-<button  class="menu-toggle" onclick="openNav()" >menu</button>
-<nav class="mainMenu" id="topNav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<ul>
+<button id="menu-toggle" class="menu-toggle" >menu</button>
+<nav>
+	<ul class="mainMenu" id="topNav">
 		<li><a href="index.php">home</a></li>
 		<li><a href="music.php">music</a></li>
 		<li><a href="gigs.php">gigs</a></li>
@@ -30,5 +29,4 @@
 		<li><a href="connect.php">connect</a></li>
 		<li><a href="archive.php">archive</a></li>
 	</ul>
-</nav>
 </header>
